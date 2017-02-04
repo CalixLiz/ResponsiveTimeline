@@ -1,0 +1,81 @@
+.container{
+  display: block;
+  vertical-align: top;
+  padding: 30px;
+   
+}
+
+
+.row{
+  display: inline-block;
+  width: 20%;
+  padding: 2px 2px 2px 0;
+  vertical-align: top;
+  margin-bottom: 35px;
+  
+}
+
+#row1{
+  line-height: 0;
+  text-align: center;
+}
+
+#date{
+  font-size: 13px;
+  color: grey;
+}
+
+#time{
+  font-size: 23px;
+  font-weight: bold;
+  color: skyblue;
+ 
+}
+
+
+#row3{
+  width: 50%;
+  border-radius: 5%;
+  color: white;
+  background: skyblue;
+}
+
+
+
+@media (max-width: 700px) {
+  .row{
+    width: 10%;
+  }
+  
+  #row3{
+  width: 60%;
+}
+  #date{
+  font-size: 10px;
+  color: grey;
+}
+
+#time{
+  font-size: 18px;
+  font-weight: bold;
+  color: skyblue;
+}  
+}
+
+@media (max-width: 600px) {
+  .row{
+    display: block;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  #row2{
+    margin-left: 80%;
+    margin-top: -90px;
+    margin-bottom: 10px;
+  }
+  
+  #row3
+  {
+    width: 80%;
+  }
+}
